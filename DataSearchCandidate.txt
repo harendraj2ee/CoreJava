@@ -1,0 +1,26 @@
+Tomcatlab testing server API URL
+
+CandidateURL : https://tomcatlab.globalhuntindia.com/DataSearchCandidate/candidates?id=1580055&type=n8u3k7
+LinkedIdURL : http://localhost:8080/DataSearchCandidate/candidates?id=5&type=l6n2k4
+
+
+
+All API Working
+
+•	Resume Data
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/resume?id=3107821
+
+•	Attach Audit
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/attachAudit?jobid=96fdb429-5e13-f301-23f6-5523b26efb0a&resumeid=3107820
+
+•	Attach
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/attach?resumeid=2974906
+
+•	API with ‘candidate’ and ‘LinkedIn candidate’ 
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/candidates?id=3442178&type=
+
+1:-type= n8u3k7(candidate) 
+2:- type= l6n2k4 (LinkedIn Candidate)
+
+•	Canaudit
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/canaudit?id=187761

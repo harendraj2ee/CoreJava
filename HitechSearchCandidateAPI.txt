@@ -1,0 +1,72 @@
+All API Working
+
+•	Resume Data
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/resume?id=3107821
+
+•	Attach Audit
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/attachAudit?jobid=96fdb429-5e13-f301-23f6-5523b26efb0a&resumeid=3107820
+
+•	Attach
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/attach?resumeid=2974906
+
+•	API with ‘candidate’ and ‘LinkedIn candidate’ 
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/candidates?id=3442178&type=
+
+1:-type= n8u3k7(candidate) 
+2:- type= l6n2k4 (LinkedIn Candidate)
+
+•	Canaudit
+https://tomcatlab.globalhuntindia.com/DataSearchCandidate/canaudit?id=187761
+
+
+
+-----------------------------------------------------------------------
+AttachURL behalf of id API:  rid: 2120804
+
+CandidateAuditURL : http://localhost:8080/HitechSearchCandidate/canaudit?id=187761
+CallURL : http://localhost:8080/HitechSearchCandidate/call?mobile=7406030001
+CandidateAttachHistory (Attach) : http://localhost:8080/HitechSearchCandidate/candAttachHistory?id=105368
+EmailURL : http://localhost:8080/HitechSearchCandidate/emails?emailID=debipratima.mohanta@globalhunt.in
+
+order by :-
+CandidateAttachHistory : http://localhost:8080/HitechSearchCandidate/candAttachHistory?id=3201294&sort=enterdatea
+CallURL :localhost:8080/HitechSearchCandidate/call?mobile=7406030001&sort=enterdatea
+EmailURL : http://localhost:8080/HitechSearchCandidate/emails?emailID=debipratima.mohanta@globalhunt.in&sort=enterdatea
+
+
+
+
+
+Testing Server cvhuntlab:
+
+Candidate Attach History URL : https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/candAttachHistory?id=105368
+CallURL :- https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/call?mobile=7406030001
+EmailsURL  : https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/emails?emailID=debipratima.mohanta@globalhunt.in
+
+Order BY :
+Candidate Attach Hisotry : https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/candAttachHistory?id=105368&sort=enterdatea
+CallURL : https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/call?mobile=7406030001&sort=enterdated
+EmailURL : https://cvhuntlab.globalhuntindia.com:8070/HitechSearchCandidate/emails?emailID=debipratima.mohanta@globalhunt.in&sort=enterdated
+
+
+For Live URL cvsearch :45 server--------
+Candidate Attach History : http://cvsearch.globalhuntindia.com:8070/HitechSearchCandidate/candAttachHistory?id=105368&sort=enterdatea
+callURL: http://cvsearch.globalhuntindia.com:8070/HitechSearchCandidate/call?mobile=7406030001&sort=enterdated
+EmailURL : http://cvsearch.globalhuntindia.com:8070/HitechSearchCandidate/emails?emailID=debipratima.mohanta@globalhunt.in&sort=enterdated
+---------------------------------------------------
+Tomcatlab Testing Server
+Candidate Attach Hisotry :  https://tomcatlab.globalhuntindia.com/HitechSearchCandidate/candAttachHistory?id=3201286&sort=enterdatea
+
+CallURL : https://tomcatlab.globalhuntindia.com/HitechSearchCandidate/call?mobile=7406030001&sort=enterdated
+
+EmailURL: https://tomcatlab.globalhuntindia.com/HitechSearchCandidate/emails?emailID=tanumoy.chatterjee@globalhunt.in&sort=enterdatea
+
+------------------------------------
+for MS SQL Server
+http://localhost:8080/HitechSearchCandidate/candAttachHistoryMs?id=1580396&sort=enterdatea
+http://localhost:8080/HitechSearchCandidate/callMs?mobile=8700402766&sort=enterdatea
+http://localhost:8080/HitechSearchCandidate/emailsMs?emailID=kamal.kumar@hitechpeopleinc.com&sort=enterdatea
+
+Testing Tomcatlab Server 
+
+
